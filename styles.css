@@ -1,0 +1,25 @@
+body {
+  font-family: arial;
+}
+
+#main-container {
+  /* height: 98vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title-container {
+  margin-top: 50px;
+  flex: auto;
+  text-align: center;
+}
+
+#map-container {
+  flex: auto;
+}
+
+#legend-container {
+  flex: auto;
+}
